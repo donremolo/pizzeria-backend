@@ -17,8 +17,10 @@ import static org.hamcrest.Matchers.containsString;
 
 import com.idforideas.pizzeria.docs.support.MockBase;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+@Disabled
 public class CategoryResourceTest extends MockBase {
 
     @Test

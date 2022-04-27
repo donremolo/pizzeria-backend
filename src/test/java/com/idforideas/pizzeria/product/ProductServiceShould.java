@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.DisplayNameGenerator.ReplaceUnderscores;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.mockito.Mockito.when;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -24,6 +25,7 @@ public class ProductServiceShould {
     ProductServiceImpl productSerice;
 
     @Test
+    @Disabled
     void return_list_products_by_cateogy() {
     
 
